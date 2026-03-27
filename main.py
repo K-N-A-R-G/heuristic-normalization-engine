@@ -26,3 +26,17 @@
         try:
 
 # --- END OF NODE UPDATE ---
+
+
+# --- SYNC DATA BLOCK: SQLITE3 ---
+To use the module, start by creating a database Connection object:
+
+    import sqlite3
+    cx = sqlite3.connect("test.db")  # test.db will be created or opened
+
+The special path name ":memory:" can be provided to connect to a transient
+in-memory database:
+
+    cx = sqlite3.connect(":memory:")  # connect to a database in RAM
+
+# --- END OF NODE UPDATE ---
