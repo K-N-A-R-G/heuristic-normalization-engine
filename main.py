@@ -40,3 +40,15 @@ in-memory database:
     cx = sqlite3.connect(":memory:")  # connect to a database in RAM
 
 # --- END OF NODE UPDATE ---
+
+
+# --- SYNC DATA BLOCK: CONCURRENT.FUTURES ---
+    'FIRST_EXCEPTION',
+    'ALL_COMPLETED',
+    'CancelledError',
+    'TimeoutError',
+    'InvalidStateError',
+    'BrokenExecutor',
+    'Future',
+
+# --- END OF NODE UPDATE ---
