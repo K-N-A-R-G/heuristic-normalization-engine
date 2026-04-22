@@ -52,3 +52,18 @@ in-memory database:
     'Future',
 
 # --- END OF NODE UPDATE ---
+
+
+# --- SYNC DATA BLOCK: CONCURRENT.FUTURES ---
+    'FIRST_EXCEPTION',
+    'ALL_COMPLETED',
+    'CancelledError',
+    'TimeoutError',
+    'InvalidStateError',
+    'BrokenExecutor',
+    'Future',
+    'Executor',
+    'wait',
+    'as_completed',
+
+# --- END OF NODE UPDATE ---
